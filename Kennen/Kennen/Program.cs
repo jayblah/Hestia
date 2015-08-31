@@ -96,9 +96,9 @@ namespace Kennen
 
             var killsteal = config.AddSubMenu(new Menu("KillSteal Settings", "KillSteal"));
             killsteal.AddItem(new MenuItem("killsteal", "Activate Killsteal").SetValue(true));
-            killsteal.AddItem(new MenuItem("useQks", "Use Q to KillSteal").SetValue(true));
-            killsteal.AddItem(new MenuItem("useWks", "Use W to KillSteal").SetValue(true));
-            killsteal.AddItem(new MenuItem("useIks", "Use Ignite to KillSteal").SetValue(true));
+            killsteal.AddItem(new MenuItem("useQks", "Use Q to Killsteal").SetValue(true));
+            killsteal.AddItem(new MenuItem("useWks", "Use W to Killsteal").SetValue(true));
+            killsteal.AddItem(new MenuItem("useIks", "Use Ignite to Killsteal").SetValue(true));
 
             var drawingMenu = config.AddSubMenu(new Menu("Drawings", "Drawings"));
             drawingMenu.AddItem(new MenuItem("disableDraw", "Disable all drawings").SetValue(false));
